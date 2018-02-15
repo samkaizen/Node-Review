@@ -11,7 +11,7 @@ app.get('/', (req,res)=>{
     //This is how we send html files
     res.sendFile(  __dirname + '/index.html');
 });
-app.get('ct'/conta, (req,res)=>{
+app.get('/contact', (req,res)=>{
     //This is how we send html files
     res.sendFile( __dirname + '/contact.html');
 });
