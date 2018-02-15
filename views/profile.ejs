@@ -32,6 +32,16 @@
     <h1>Welcome to the profile of <span> <%=name %>  </span>  </h1>
     <p> Age  : <span> <%= ninja.age %>  </span> </p>
     <p> Belt  : <span> <%= ninja.belt%>  </span> </p>
-			
+     <h2>Hobbies :</h2>
+	 <ul>
+         <!-- Here we simply say : inside of this ul element go ahead and loop through this array of hobbies and inject each sigle hobby in an li tag! -->
+         <!--We don't use = when using some javascript code here just map -->
+         <% ninja.hobbies.map((hobby)=>{ %>
+            <!-- when we output data we use the  = (data is just a variable) -->
+            <li>  <%= hobby  %></li>
+
+            <% });  %>
+
+     </ul>
 </body>
 </html>
