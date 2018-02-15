@@ -1,0 +1,16 @@
+{
+  "name": "Node-Rev",
+  "version": "1.0.0",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie laoreet ligula vel imperdiet. Aenean ex lacus, molestie et dolor quis, pretium molestie lorem. Sed placerat ultricies facilisis. Quisque elementum non ipsum at vulputate. Fusce et rhoncus ante, id convallis urna. Nulla pretium nec orci eget posuere. Mauris porttitor justo eget rutrum egestas. Vestibulum a scelerisque orci. Sed auctor lacus eu turpis porta, ut pharetra tellus malesuada. Duis sit amet varius nisl. Curabitur bibendum dolor quis lectus lobortis malesuada.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
