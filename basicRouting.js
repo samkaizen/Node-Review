@@ -6,7 +6,7 @@ const fs= require('fs')
 const server = http.createServer(
     (req, res)=>{
     
-        if(req.url=== '/home' || req.url === '/'){
+        if(req.url === '/home' || req.url === '/'){
 
             res.writeHead(200,{'Content-Type': 'text/html'});
 
@@ -16,7 +16,7 @@ const server = http.createServer(
 
             fs.createReadStream(__dirname + '/contact.html').pipe(res);
         }
-        else if(req.url=== '/api/ninjas'  ){
+        else if(req.url === '/api/ninjas'  ){
             res.writeHead(200,{'Content-Type': 'application/json'});
             const ninjas = [{ name : 'Yoshi', age : 33},{name : 'Ip Man', age : 44}];
             res.end(JSON.stringify(ninjas));
